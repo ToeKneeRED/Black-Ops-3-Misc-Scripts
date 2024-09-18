@@ -16,3 +16,5 @@ ex."C:\Path\To\Bat\File\start_t7_uem.bat" "C:\Users\USERNAME\Downloads\t7patch\t
 ## Requires:
 - [UEM](https://steamcommunity.com/sharedfiles/filedetails/?id=2942053577)
 - [t7patch](https://github.com/shiversoftdev/t7patch)
+
+### [Raw file](https://raw.githubusercontent.com/ToeKneeRED/Black-Ops-3-Misc-Scripts/main/bat/start_t7_uem.bat)
