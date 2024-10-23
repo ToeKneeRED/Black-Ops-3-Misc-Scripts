@@ -59,12 +59,11 @@ goto END
 echo Searching for steam...
 for /f "tokens=1,3*" %%E in ('reg query "HKEY_CURRENT_USER\Software\Valve\Steam"') do (
     if %%E==SteamExe (
-		set "steamPath=%%E"
-		REM if "%%G"=="" (
-			REM set steamPath="%%F"
-		REM ) else (
-			REM set steamPath="%%F %%G"
-		REM )
+		if "%%G"=="" (
+			set steamPath="%%F"
+		) else (
+			set steamPath="%%F %%G"
+		)
 		goto STEAM_FOUND
 	)
 )
